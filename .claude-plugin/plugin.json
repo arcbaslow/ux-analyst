@@ -1,0 +1,11 @@
+{
+  "name": "ux-analyst",
+  "version": "0.1.0",
+  "description": "UI/UX audit from Microsoft Clarity: ranks pages by friction, reads click, scroll, dead and rage maps in the Clarity UI, checks them against the live page and the funnel, and writes per-page findings with evidence and priority.",
+  "author": {
+    "name": "arcbaslow"
+  },
+  "repository": "https://github.com/arcbaslow/ux-analyst",
+  "license": "MIT",
+  "keywords": ["microsoft-clarity", "ux-audit", "heatmaps", "cro", "analytics"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ux-analyst",
+  "description": "A Claude Code skill that runs a UI/UX audit of a site from Microsoft Clarity data.",
+  "owner": {
+    "name": "arcbaslow"
+  },
+  "plugins": [
+    {
+      "name": "ux-analyst",
+      "source": "./",
+      "description": "UI/UX audit from Microsoft Clarity heatmaps, dead and rage clicks."
+    }
+  ]
+}
