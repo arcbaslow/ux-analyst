@@ -1,10 +1,42 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="UX Analyst: a phone and a monitor showing heat blobs on a web page, with a brass magnifying glass over one of them." width="100%">
+</p>
+
 # UX Analyst
 
 A Claude Code skill that runs a UI/UX audit of a site from Microsoft Clarity data.
 
 [![MIT license](https://img.shields.io/badge/license-MIT-475569)](LICENSE)
 
+[Use cases](#use-cases) | [Why it is built this way](#why-it-is-built-this-way) | [Installation](#installation) | [Usage](#usage) | [License](#license)
+
 The skill ranks pages by friction through the official Clarity MCP, reads click maps, scroll maps, dead and rage taps and the Copilot heatmap summary in the Clarity UI, checks each page against the live site and its funnel step, and writes findings you can hand to a designer or developer: the element, what users do, the evidence, the fix and a priority.
+
+## Use cases
+
+<img src="assets/rank-pages.webp" alt="Five navy page cards on brass stands from tallest to shortest; the two tallest carry thermometers and a green line runs under the first three." width="360" align="right">
+
+### Find where to look first
+
+You ask: "Audit our store in Clarity." The skill pulls sessions, dead clicks, rage clicks, quickbacks and scroll depth per page and device, computes friction rates itself and weighs them by what each page is worth. You get three to five pages with one line on why each was picked, and, when a funnel source is connected, each page's funnel step next to its friction numbers.
+
+<br clear="all">
+
+<img src="assets/click-map.webp" alt="A phone showing a shop page, with a brass magnifying glass over a cluster of orange taps on the product image and a green line leading from the real button." width="360" align="left">
+
+### Explain a dead-tap cluster
+
+You ask: "Why do mobile users keep tapping the product photo?" The skill reads the click list and the dead-tap view in the Clarity UI, matches selectors with the live page at 375 px and finds that the product photo looks tappable but is not. You get the selector, its tap count and share of the page's taps, the conversion of sessions that tapped it when Clarity has a conversion segment, and a fix with a priority.
+
+<br clear="all">
+
+<img src="assets/scroll-depth.webp" alt="A long navy scroll like a web page on a brass ruler, crossed by a green line at its middle, with a small brass button past the line." width="360" align="right">
+
+### Check whether the CTA is seen
+
+You ask: "Is the lead form too far down?" The skill takes the 50% and 25% reach lines from Clarity's scroll data for mobile and desktop and places the form by its measured position on the live page. You get whether it sits above the 50% or the 25% reach line on each device, and where to move it.
+
+<br clear="all">
 
 ## Why it is built this way
 
