@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="UX Analyst: a phone and a monitor showing heat blobs on a web page, with a brass magnifying glass over one of them." width="100%">
+  <img src="assets/banner.webp" alt="UX Analyst: a park where everyone walks a worn shortcut across the lawn instead of the paved path, while a park keeper takes notes." width="100%">
 </p>
 
 # UX Analyst
@@ -14,7 +14,7 @@ The skill ranks pages by friction through the official Clarity MCP, reads click 
 
 ## Use cases
 
-<img src="assets/rank-pages.webp" alt="Five navy page cards on brass stands from tallest to shortest; the two tallest carry thermometers and a green line runs under the first three." width="360" align="right">
+<img src="assets/rank-pages.webp" alt="An innkeeper raises his lantern toward the door whose doormat is worn through and covered in muddy footprints." width="360" align="right">
 
 ### Find where to look first
 
@@ -22,7 +22,7 @@ You ask: "Audit our store in Clarity." The skill pulls sessions, dead clicks, ra
 
 <br clear="all">
 
-<img src="assets/click-map.webp" alt="A phone showing a shop page, with a brass magnifying glass over a cluster of orange taps on the product image and a green line leading from the real button." width="360" align="left">
+<img src="assets/click-map.webp" alt="A queue of people trying a door painted on the wall, one bumping his nose on it, while the real door beside it stands open." width="360" align="left">
 
 ### Explain a dead-tap cluster
 
@@ -30,7 +30,7 @@ You ask: "Why do mobile users keep tapping the product photo?" The skill reads t
 
 <br clear="all">
 
-<img src="assets/scroll-depth.webp" alt="A long navy scroll like a web page on a brass ruler, crossed by a green line at its middle, with a small brass button past the line." width="360" align="right">
+<img src="assets/scroll-depth.webp" alt="A long gallery where visitors crowd the entrance and thin out by the middle, and nobody reaches the gift shop at the far end." width="360" align="right">
 
 ### Check whether the CTA is seen
 
